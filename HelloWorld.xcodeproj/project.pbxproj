@@ -24,6 +24,8 @@
 		8B5B3CB2163B8FE700E4B4BB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B3C91163B8FE700E4B4BB /* CoreData.framework */; };
 		8B5B3CBA163B8FE700E4B4BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B3CB8163B8FE700E4B4BB /* InfoPlist.strings */; };
 		8B5B3CBD163B8FE700E4B4BB /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B3CBC163B8FE700E4B4BB /* HelloWorldTests.m */; };
+		8B5B3CCF163B94D000E4B4BB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B3CCE163B94D000E4B4BB /* Storyboard.storyboard */; };
+		8B5B3CD2163B951C00E4B4BB /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B3CD1163B951C00E4B4BB /* Window.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		8B5B3CB9163B8FE700E4B4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B5B3CBB163B8FE700E4B4BB /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		8B5B3CBC163B8FE700E4B4BB /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		8B5B3CCE163B94D000E4B4BB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		8B5B3CD1163B951C00E4B4BB /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		8B5B3C7C163B8FE600E4B4BB = {
 			isa = PBXGroup;
 			children = (
+				8B5B3CCE163B94D000E4B4BB /* Storyboard.storyboard */,
 				8B5B3C93163B8FE700E4B4BB /* HelloWorld */,
 				8B5B3CB5163B8FE700E4B4BB /* HelloWorldTests */,
 				8B5B3C8A163B8FE600E4B4BB /* Frameworks */,
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				8B5B3C9C163B8FE700E4B4BB /* HelloWorldAppDelegate.h */,
+				8B5B3CD1163B951C00E4B4BB /* Window.xib */,
 				8B5B3C9D163B8FE700E4B4BB /* HelloWorldAppDelegate.m */,
 				8B5B3CA5163B8FE700E4B4BB /* HelloWorld.xcdatamodeld */,
 				8B5B3C94163B8FE700E4B4BB /* Supporting Files */,
@@ -237,6 +243,8 @@
 				8B5B3CA0163B8FE700E4B4BB /* Default.png in Resources */,
 				8B5B3CA2163B8FE700E4B4BB /* Default@2x.png in Resources */,
 				8B5B3CA4163B8FE700E4B4BB /* Default-568h@2x.png in Resources */,
+				8B5B3CCF163B94D000E4B4BB /* Storyboard.storyboard in Resources */,
+				8B5B3CD2163B951C00E4B4BB /* Window.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +448,7 @@
 				8B5B3CC2163B8FE700E4B4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B5B3CC3163B8FE700E4B4BB /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +457,7 @@
 				8B5B3CC5163B8FE700E4B4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
